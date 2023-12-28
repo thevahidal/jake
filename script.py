@@ -38,6 +38,13 @@ with open("data.toml", "rb") as f:
             h("meta", charset="utf-8"),
             h("link", rel="stylesheet", href="css/pico.min.css"),
             h("link", rel="stylesheet", href="css/style.css"),
+            h("style", rel="stylesheet")(
+                f"""
+                    :root {{
+                        --primary: {data.get("primary_color", "#546e7a")};
+                    }}
+                """
+            ),
         ),
     )
 
@@ -68,7 +75,7 @@ with open("data.toml", "rb") as f:
         ),
     )
 
-    output = html(lang="en")(
+    output = html(lang="en", data_theme=data.get("theme", "dark"))(
         head,
         h("body")(
             header,

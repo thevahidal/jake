@@ -2,6 +2,8 @@ name = "Vahid Al"
 description = "Software Developer, Currently working on nothing"
 keywords = "developer, python"
 image = "me.jpeg"
+theme = "dark"
+primary_color = "#00897b"
 
 [[sections]]
 title = "Projects"
