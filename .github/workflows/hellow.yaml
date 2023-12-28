@@ -16,10 +16,13 @@ jobs:
           cache: "poetry"
 
       - run: poetry install
-      - run: |
-          poetry run python script.py
-          git add -A
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git commit -m 'Deploy'
-          git push
+      - run: poetry run python script.py
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: .
+      - id: deployment
+        uses: actions/deploy-pages@main
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
