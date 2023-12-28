@@ -1,36 +1,33 @@
-name = "Vahid Al"
-description = "Software Developer, Currently working on nothing"
-keywords = "developer, python"
-image = "me.jpeg"
+name = "Jake Gyllenhaal"
+description = "Accomplished actor, captivating with versatility and charisma."
+keywords = "Jake Gyllenhaal, actor, filmography, awards, versatile performances, Hollywood"
+image = "jake.webp"
 theme = "dark"
-primary_color = "#00897b"
+primary_color = "#d81b60"
+text_align = "center"
 
 [[sections]]
-title = "Projects"
-description = "Here are some of my projects"
+title = "Movies"
+description = "Here are some of my movies"
 [[sections.items]]
-title = "Soul"
-description = "An SQLite REST and Real-time server"
-url = "https://github.com/thevahidal/soul"
+title = "Nightcrawler"
+description = "A mesmerizing thriller delving into the dark world of crime journalism"
+url = "https://www.imdb.com/title/tt2872718/"
 [[sections.items]]
-title = "Novel"
-description = "A collaborative storytelling"
-url = "https://github.com/thevahidal/novel"
+title = "Brokeback Mountain"
+description = "A groundbreaking romantic drama challenging societal expectations"
+url = "https://www.imdb.com/title/tt0388795/"
 [[sections.items]]
-title = "Bukowski"
-description = "A human typewriter"
-url = "https://github.com/thevahidal/bukowski"
-[[sections.items]]
-title = "Jake"
-description = "Free one-link site generator hosted in your GitHub account"
-url = "https://github.com/thevahidal/jake"
+title = "Prisoners"
+description = "A gripping thriller entangling a detective in a web of secrets during a kidnapping investigation"
+url = "https://www.imdb.com/title/tt1392214/"
 
 [[sections]]
 title = "Links"
 description = "Look for me on these websites"
 [[sections.items]]
-title = "GithHub"
-url = "https://github.com/thevahidal"
+title = "Instagram"
+url = "https://www.instagram.com/jakegyllenhaal"
 [[sections.items]]
-title = "Linkedin"
-url = "https://www.linkedin.com/in/thevahidal/"
+title = "IMDb"
+url = "https://www.imdb.com/name/nm0350453/"

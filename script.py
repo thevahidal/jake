@@ -43,6 +43,9 @@ with open("data.toml", "rb") as f:
                     :root {{
                         --primary: {data.get("primary_color", "#546e7a")};
                     }}
+                    * {{
+                        text-align: {data.get("text_align", "center")};
+                    }}
                 """
             ),
         ),
