@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "github-actions-python"
+version = "0.1.0"
+description = ""
+authors = ["Vahid Al <thevahidal@gmail.com>"]
+readme = "README.md"
+packages = [{include = "github_actions_python"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+tinyhtml = "^1.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
