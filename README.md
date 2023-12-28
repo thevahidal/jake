@@ -1,2 +1,2 @@
 # github-actions-python
-Playing around with Github Actions and Pages.
+Playing around with GitHub Actions and Pages.
