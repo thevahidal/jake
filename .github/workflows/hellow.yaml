@@ -16,8 +16,8 @@ jobs:
           cache: "poetry"
 
       - run: poetry install
-      - run: poetry run python script.py
       - run: |
+          poetry run python script.py
           git add -A
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
