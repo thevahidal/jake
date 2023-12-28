@@ -1,7 +1,19 @@
-name: Run Python Script
+name: Deploy static content to Pages
 
 on:
   push:
+    branches: [$default-branch]
+
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 
 jobs:
   generate:
@@ -23,6 +35,8 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
       - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
         with:
