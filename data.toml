@@ -1,27 +1,34 @@
 name = "Vahid Al"
-bio = "Software Developer"
+description = "Software Developer, Currently working on nothing"
+keywords = "developer, python"
+image = "me.jpeg"
 
 [[sections]]
 title = "Projects"
-description = "Some of my projects"
+description = "Here are some of my projects"
 [[sections.items]]
 title = "Soul"
-description = "A simple, fast and lightweight PHP framework."
+description = "An SQLite REST and Real-time server"
 url = "https://github.com/thevahidal/soul"
 [[sections.items]]
+title = "Novel"
+description = "A collaborative storytelling"
+url = "https://github.com/thevahidal/novel"
+[[sections.items]]
 title = "Bukowski"
-description = "A beautiful typewriter"
+description = "A human typewriter"
 url = "https://github.com/thevahidal/bukowski"
+[[sections.items]]
+title = "Jake"
+description = "Free one-link site generator hosted in your GitHub account"
+url = "https://github.com/thevahidal/jake"
 
 [[sections]]
 title = "Links"
-description = "Some of my links"
+description = "Look for me on these websites"
 [[sections.items]]
 title = "GithHub"
 url = "https://github.com/thevahidal"
 [[sections.items]]
 title = "Linkedin"
 url = "https://www.linkedin.com/in/thevahidal/"
-[[sections.items]]
-title = "Twitter"
-url = "https://twitter.com/thevahidal"
