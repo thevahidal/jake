@@ -1,7 +1,3 @@
-* {
-  text-align: center;
-}
-
 .avatar {
   border-radius: 50%;
   width: 100px;
@@ -12,4 +8,8 @@
 
 .section {
   margin-bottom: var(--block-spacing-vertical);
+}
+
+button > hgroup {
+  margin-bottom: 0;
 }

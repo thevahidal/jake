@@ -13,10 +13,10 @@ with open("data.toml", "rb") as f:
             ),
             (
                 h("div", klass="item")(
-                    h("a", href=item.get("url"), target="_blank")(
+                    h("button", klass="outline", href=item.get("url"), target="_blank")(
                         h("hgroup")(
                             h("h4")(item.get("title")),
-                            h("p")(item.get("description"))
+                            h("h5")(item.get("description"))
                             if item.get("description")
                             else None,
                             "",
@@ -40,8 +40,8 @@ with open("data.toml", "rb") as f:
             h("link", rel="stylesheet", href="css/style.css"),
             h("style", rel="stylesheet")(
                 f"""
-                    :root {{
-                        --primary: {data.get("primary_color", "#546e7a")};
+                    [data-theme="dark"], [data-theme="light"] {{
+                        --primary: {data.get("primary_color", "#546e7a")} !important;
                     }}
                     * {{
                         text-align: {data.get("text_align", "center")};
