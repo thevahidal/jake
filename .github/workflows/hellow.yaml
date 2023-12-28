@@ -18,8 +18,8 @@ jobs:
       - run: poetry install
       - run: poetry run python script.py
       - run: |
-        git add -A
-        git config --local user.email "action@github.com"
-        git config --local user.name "GitHub Action"
-        git commit -m 'Deploy'
-        git push
+          git add -A
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git commit -m 'Deploy'
+          git push
