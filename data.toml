@@ -1,3 +1,6 @@
+name = "Vahid Al"
+bio = "Software Developer"
+
 [[sections]]
 title = "Projects"
 description = "Some of my projects"

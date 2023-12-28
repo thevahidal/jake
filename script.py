@@ -39,7 +39,7 @@ with open("data.toml", "rb") as f:
                 )
             ),
         ),
-        h("body")(sections),
+        h("body")(h("h1")(data.get("name")), h("p")(data.get("bio")), sections),
     ).render()
 
     with open("index.html", "w") as f:
