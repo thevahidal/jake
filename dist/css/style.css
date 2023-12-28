@@ -1,0 +1,14 @@
+* {
+  text-align: center;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  objet-fit: cover;
+}
+
+.section {
+  margin-bottom: var(--block-spacing-vertical);
+}
