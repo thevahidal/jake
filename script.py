@@ -42,5 +42,5 @@ with open("data.toml", "rb") as f:
         h("body")(sections),
     ).render()
 
-    with open("output.html", "w") as f:
+    with open("index.html", "w") as f:
         f.write(output)
