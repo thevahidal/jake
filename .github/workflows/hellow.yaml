@@ -19,6 +19,8 @@ jobs:
       - run: poetry run python script.py
 
   build:
+    needs: generate
+
     runs-on: ubuntu-latest
     steps:
       - name: Upload Pages artifact
