@@ -1,8 +1,7 @@
-# Simple workflow for deploying static content to GitHub Pages
-name: Deploy static content to Pages
+name: Deploy Jake Website to GitHub Pages
 
 on:
-  # Runs on pushes targeting the default branch
+  # Runs on pushes targeting the main branch
   push:
     branches: ["main"]
 
@@ -22,7 +21,6 @@ concurrency:
   cancel-in-progress: false
 
 jobs:
-  # Single deploy job since we're just deploying
   deploy:
     environment:
       name: github-pages
@@ -31,15 +29,17 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v4
-      - name: Install poetry
+      - name: Install Poetry
         run: pipx install poetry
       - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
           cache: "poetry"
 
-      - run: poetry install
-      - run: poetry run python script.py
+      - name: Install Dependencies
+        run: poetry install
+      - name: Run the Jake's Generator Script
+        run: poetry run python script.py
       - name: Setup Pages
         uses: actions/configure-pages@v4
       - name: Upload artifact

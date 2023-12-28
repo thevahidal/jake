@@ -1,6 +1,6 @@
 import tomllib
 
-from tinyhtml import html, h, frag, raw
+from tinyhtml import html, h, frag
 
 
 with open("data.toml", "rb") as f:

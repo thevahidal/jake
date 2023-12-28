@@ -1,10 +1,9 @@
 [tool.poetry]
-name = "github-actions-python"
+name = "jake"
 version = "0.1.0"
-description = ""
+description = "Effortlessly create and deploy your own one-link website on GitHub."
 authors = ["Vahid Al <thevahidal@gmail.com>"]
 readme = "README.md"
-packages = [{include = "github_actions_python"}]
 
 [tool.poetry.dependencies]
 python = "^3.11"
