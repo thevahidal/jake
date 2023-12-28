@@ -1,0 +1,24 @@
+[[sections]]
+title = "Projects"
+description = "Some of my projects"
+[[sections.items]]
+title = "Soul"
+description = "A simple, fast and lightweight PHP framework."
+url = "https://github.com/thevahidal/soul"
+[[sections.items]]
+title = "Bukowski"
+description = "A beautiful typewriter"
+url = "https://github.com/thevahidal/bukowski"
+
+[[sections]]
+title = "Links"
+description = "Some of my links"
+[[sections.items]]
+title = "GithHub"
+url = "https://github.com/thevahidal"
+[[sections.items]]
+title = "Linkedin"
+url = "https://www.linkedin.com/in/thevahidal/"
+[[sections.items]]
+title = "Twitter"
+url = "https://twitter.com/thevahidal"
