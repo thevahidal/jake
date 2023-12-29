@@ -1,6 +1,8 @@
 # Jake
 
-Jake is a tool that allows you to effortlessly create your own one-link website and deploy it on your GitHub account.
+Jake is a tool that allows you to effortlessly create your one-link website and deploy it on your GitHub account.
+
+[Demo](thevahidal.github.io/jake)
 
 ## Usage
 
@@ -25,7 +27,7 @@ After creating the repository, you need to enable GitHub Pages. Follow these ste
 To customize your website, follow these steps:
 
 1. Open your repository in your preferred text editor.
-2. Locate the `data.toml` file and update it with your own information.
+2. Locate the `data.toml` file and update it with your information.
 3. Modify the following settings according to your preferences:
 
 **General Information:**
@@ -57,11 +59,11 @@ Make the necessary modifications to the `data.toml` file based on the above inst
 
 ### Voila!
 
-That's all you need to do. Now, you can sit back and relax while your website gets deployed. You can monitor the progress in the `Actions` tab of your repository. Once the deployment is complete, you can access your brand new one-link website at `<yourusername>.github.io` or `<yourusername>.github.io/repo-name/`.
+That's all you need to do. Now, you can sit back and relax while your website gets deployed. You can monitor the progress in the `Actions` tab of your repository. Once the deployment is complete, you can access your brand new one-link website at `<yourusername>.github.io` (If you chose `<yourusername>.github.io` as your repository name) or `<yourusername>.github.io/repo-name/`.
 
 > Note: You may need to manually trigger the GitHub Action to deploy your website. Here's how you can do it:
 
-> 1. In your repository, navigate to the "Actions" tab located in the right sidebar.
+> 1. In your repository, navigate to the "Actions" tab.
 > 2. Look for the workflow named "Deploy Jake Website to GitHub Pages" in the list of workflows.
 > 3. If you see an alert stating "This workflow has a workflow_dispatch event trigger," it means you can manually trigger the workflow.
 > 4. Click on the "Run Workflow" button. A new window will appear.
