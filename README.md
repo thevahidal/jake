@@ -38,7 +38,8 @@ To customize your website, follow these steps:
 - `image`: The file address of your avatar. Place your avatar inside the `dist/img/` folder (e.g., "me.jpeg" - Note that the `/dist/img/` address is not included)
 - `theme`: Choose your website theme: "dark" or "light" (e.g., "dark")
 - `primary_color`: Specify your website's primary color using a hexadecimal color code (e.g., "#00897b")
-- text_align: Specify the text alignment for your website: "right", "left" or "center" (e.g., "center")
+- `text_align`: Specify the text alignment for your website: "right", "left" or "center" (e.g., "center")
+- `gtag_id`: Your Google Analytics tracking ID (e.g., "G-33WB8LVHR6")
 
 **Sections:**
 You can add multiple sections based on your requirements. For example, you may want a section for your projects, another for your social media links, and another for your merchandise products. Each section is defined using `[[sections]]`.

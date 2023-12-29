@@ -1,6 +1,6 @@
 import tomllib
 
-from tinyhtml import html, h, frag
+from tinyhtml import html, h, frag, raw
 
 
 with open("data.toml", "rb") as f:
@@ -54,6 +54,21 @@ with open("data.toml", "rb") as f:
                     }}
                 """
             ),
+            raw(
+                f"""
+                    <!-- Google tag (gtag.js) -->
+                    <script async src="https://www.googletagmanager.com/gtag/js?id={data.get("gtag_id")}"></script>
+                    <script>
+                    window.dataLayer = window.dataLayer || [];
+                    function gtag(){{dataLayer.push(arguments);}}
+                    gtag('js', new Date());
+
+                    gtag('config', '{data.get("gtag_id")}');
+                    </script>
+                """
+            )
+            if data.get("gtag_id")
+            else None,
         ),
     )
 
