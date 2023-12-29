@@ -13,7 +13,13 @@ with open("data.toml", "rb") as f:
             ),
             (
                 h("div", klass="item")(
-                    h("button", klass="outline", href=item.get("url"), target="_blank")(
+                    h(
+                        "a",
+                        role="button",
+                        klass="outline",
+                        href=item.get("url"),
+                        target="_blank",
+                    )(
                         h("hgroup")(
                             h("h4")(item.get("title")),
                             h("h5")(item.get("description"))

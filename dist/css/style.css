@@ -10,6 +10,11 @@
   margin-bottom: var(--block-spacing-vertical);
 }
 
-button > hgroup {
+[role="button"] > hgroup {
   margin-bottom: 0;
+}
+
+[role="button"] {
+  margin-bottom: var(--spacing);
+  width: 100%;
 }
