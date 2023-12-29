@@ -71,6 +71,20 @@ That's all you need to do. Now, you can sit back and relax while your website ge
 > 5. Within the new window, click on the green "Run Workflow" button.
 > 6. GitHub Actions will initiate the deployment process for your static content to GitHub Pages.
 
+Sure! Here's an improved version:
+
+### Configuring Custom Domain
+If you want to use your custom domain for your website hosted on GitHub Pages, it's a straightforward process. Just follow these steps:
+
+1. Go to the **Settings** tab of your GitHub repository.
+2. Select **Pages** tab in the sidebar.
+3. Under the **Custom domain** section, enter your desired domain name.
+4. Click **Save**.
+
+That's it! Your GitHub Pages site will now be accessible using your custom domain.
+
+For more detailed instructions and information on using a custom domain with GitHub Pages, you can refer to the [official GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
 ## Contributing
 
 If you find any issues or have suggestions for improvement, please feel free to contribute by submitting a pull request or creating an issue in the repository.
