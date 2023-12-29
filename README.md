@@ -2,7 +2,7 @@
 
 Jake is a tool that allows you to effortlessly create your one-link website and deploy it on your GitHub account.
 
-[Demo](thevahidal.github.io/jake)
+[Demo](https://thevahidal.github.io/jake)
 
 ## Usage
 
