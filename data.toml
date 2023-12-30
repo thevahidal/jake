@@ -10,6 +10,8 @@ gtag_id = "G-33WB8LVHR6"
 [[sections]]
 title = "Movies"
 description = "Here are some of my movies"
+direction = "column"
+item_style = "outline"
 [[sections.items]]
 title = "Nightcrawler"
 description = "A mesmerizing thriller delving into the dark world of crime journalism"
@@ -26,9 +28,17 @@ url = "https://www.imdb.com/title/tt1392214/"
 [[sections]]
 title = "Links"
 description = "Look for me on these websites"
+direction = "row"
+item_style = "filled"
 [[sections.items]]
 title = "Instagram"
 url = "https://www.instagram.com/jakegyllenhaal"
 [[sections.items]]
 title = "IMDb"
 url = "https://www.imdb.com/name/nm0350453/"
+[[sections.items]]
+title = "Wikipedia"
+url = "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
+[[sections.items]]
+title = "Rotten Tomatoes"
+url = "https://www.rottentomatoes.com/celebrity/jake_gyllenhaal"

@@ -48,6 +48,8 @@ Each section has the following components:
 
 - `title`: The title of the section (e.g., "Projects")
 - `description`: A brief description of the section (e.g., "Here are some of my projects")
+- `direction`: The direction of the section: "row" or "column" (e.g., "row")
+- `item_style`: The style of the items in the section: "outline" or "filled" (e.g., "outline")
 - `items`: The items associated with the section. Each item is defined using `[[sections.items]]`.
 
 Each item within a section has the following components:

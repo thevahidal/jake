@@ -11,21 +11,25 @@ with open("data.toml", "rb") as f:
                 h("h3")(section.get("title")),
                 h("p")(section.get("description")),
             ),
-            (
-                h("div", klass="item")(
+            h(
+                "div",
+                klass="items",
+                style=f"flex-direction: {section.get('direction', 'column')}",
+            )(
+                h(
+                    "div",
+                    klass="item",
+                    style=f"width: {'100%' if section.get('direction', 'column') == 'column' else 'unset'}",
+                )(
                     h(
                         "a",
                         role="button",
-                        klass="outline",
+                        klass=f"{'outline' if section.get('item_style', 'outline') == 'outline' else ''}",
                         href=item.get("url"),
                         target="_blank",
                     )(
                         h("hgroup")(
-                            h("h4")(item.get("title")),
-                            h("h5")(item.get("description"))
-                            if item.get("description")
-                            else None,
-                            "",
+                            h("h4")(item.get("title")), h("h5")(item.get("description"))
                         ),
                     ),
                 )
