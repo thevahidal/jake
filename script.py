@@ -39,13 +39,26 @@ with open("data.toml", "rb") as f:
         for section in data["sections"]
     )
 
+    meta_tags = frag(
+        h("title")(data.get("name")),
+        h("meta", name="description", content=data.get("description")),
+        h("meta", name="keywords", content=data.get("keywords")),
+        h("meta", name="viewport", content="width=device-width, initial-scale=1"),
+        h("meta", charset="utf-8"),
+        # OG
+        h("meta", name="og:title", content=data.get("name")),
+        h("meta", name="og:description", content=data.get("description")),
+        h("meta", name="og:image", content=f"img/{data.get('image')}"),
+        # Twitter / X
+        h("meta", name="twitter:title", content=data.get("name")),
+        h("meta", name="twitter:description", content=data.get("description")),
+        h("meta", name="twitter:image", content=f"img/{data.get('image')}"),
+        h("meta", name="twitter:card", content="summary_large_image"),
+    )
+
     head = frag(
         h("head")(
-            h("title")(data.get("name")),
-            h("meta", name="description", content=data.get("description")),
-            h("meta", name="keywords", content=data.get("keywords")),
-            h("meta", name="viewport", content="width=device-width, initial-scale=1"),
-            h("meta", charset="utf-8"),
+            meta_tags,
             h("link", rel="stylesheet", href="css/pico.min.css"),
             h("link", rel="stylesheet", href="css/style.css"),
             h("style", rel="stylesheet")(
