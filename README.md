@@ -1,12 +1,11 @@
 <h1 align="center">
-    <img src='docs/logo.jpeg' height='150px' style="">
+    <a href="https://github.com/thevahidal/jake">
+        <img src='docs/logo.jpeg' height='200px' style="">
+    </a>
 </h1>
 
 <div align="center">
-  <p align="center">
-      Jake is a tool that allows you to effortlessly create your one-link website and deploy it on your GitHub account.
-  </p>
-  <br />
+  Jake is a tool that allows you to effortlessly create your one-link website and deploy it on your GitHub account.
   <br />
   <a href="https://thevahidal.github.io/jake">Demo</a>
 </div>
