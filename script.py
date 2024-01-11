@@ -46,14 +46,14 @@ with open("data.toml", "rb") as f:
         h("meta", name="viewport", content="width=device-width, initial-scale=1"),
         h("meta", charset="utf-8"),
         # OG
-        h("meta", name="og:title", content=data.get("name")),
-        h("meta", name="og:description", content=data.get("description")),
-        h("meta", name="og:image", content=f"img/{data.get('image')}"),
+        h("meta", property="og:title", content=data.get("name")),
+        h("meta", property="og:description", content=data.get("description")),
+        h("meta", property="og:image", content=f"img/{data.get('image')}"),
         # Twitter / X
-        h("meta", name="twitter:title", content=data.get("name")),
-        h("meta", name="twitter:description", content=data.get("description")),
-        h("meta", name="twitter:image", content=f"img/{data.get('image')}"),
-        h("meta", name="twitter:card", content="summary_large_image"),
+        h("meta", property="twitter:title", content=data.get("name")),
+        h("meta", property="twitter:description", content=data.get("description")),
+        h("meta", property="twitter:image", content=f"img/{data.get('image')}"),
+        h("meta", property="twitter:card", content="summary_large_image"),
     )
 
     head = frag(
