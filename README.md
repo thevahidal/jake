@@ -49,6 +49,7 @@ To customize your website, follow these steps:
 - `primary_color`: Specify your website's primary color using a hexadecimal color code (e.g., "#00897b")
 - `text_align`: Specify the text alignment for your website: "right", "left" or "center" (e.g., "center")
 - `gtag_id`: Your Google Analytics tracking ID (e.g., "G-33WB8LVHR6")
+- `base_url`: The base URL for your website, mentioned in **1. Create a Repository** step (e.g., https://thevahidal.github.io/jake)
 
 #### Sections
 

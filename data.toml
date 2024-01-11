@@ -6,6 +6,7 @@ theme = "dark"
 primary_color = "#d81b60"
 text_align = "center"
 gtag_id = "G-33WB8LVHR6"
+base_url = "https://thevahidal.github.io/jake"
 
 [[sections]]
 title = "Movies"
