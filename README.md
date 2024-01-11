@@ -1,8 +1,15 @@
-# Jake
+<h1 align="center">
+    <img src='docs/logo.jpeg' height='150px' style="">
+</h1>
 
-Jake is a tool that allows you to effortlessly create your one-link website and deploy it on your GitHub account.
-
-[Demo](https://thevahidal.github.io/jake)
+<div align="center">
+  <p align="center">
+      Jake is a tool that allows you to effortlessly create your one-link website and deploy it on your GitHub account.
+  </p>
+  <br />
+  <br />
+  <a href="https://thevahidal.github.io/jake">Demo</a>
+</div>
 
 ## Usage
 
@@ -28,7 +35,7 @@ To customize your website, follow these steps:
 
 1. Open your repository in your preferred text editor.
 2. Locate the `data.toml` file and update it with your information.
-   
+
 <details>
 <summary>Click to <b>Learn</b> all the available settings here</summary>
 
@@ -45,8 +52,8 @@ To customize your website, follow these steps:
 
 #### Sections
 
-You can add multiple sections based on your requirements. 
-For example, you may want a section for your projects, another for your social media links, and another for your merchandise products. 
+You can add multiple sections based on your requirements.
+For example, you may want a section for your projects, another for your social media links, and another for your merchandise products.
 
 Each section is defined using `[[sections]]` and has the following components:
 
@@ -85,6 +92,7 @@ If you want to use your custom domain for your website hosted on GitHub Pages, i
 That's it! Your GitHub Pages site will now be accessible using your custom domain.
 
 For more detailed instructions and information on using a custom domain with GitHub Pages, you can refer to the [official GitHub Docs](https://docs.github.com/en/pages/configuring-a-custom-domain-for-your-github-pages-site).
+
 </details>
 
 <details>
