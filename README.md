@@ -9,6 +9,11 @@
   <br />
   <br />
   <a href="https://thevahidal.github.io/jake">Demo</a>
+  <br />
+  <br />
+  <a href="https://thevahidal.github.io/jake">
+      <img src='docs/demo.gif' style="">
+  </a>
 </div>
 
 ## Usage
@@ -49,7 +54,7 @@ To customize your website, follow these steps:
 - `primary_color`: Specify your website's primary color using a hexadecimal color code (e.g., "#00897b")
 - `text_align`: Specify the text alignment for your website: "right", "left" or "center" (e.g., "center")
 - `gtag_id`: Your Google Analytics tracking ID (e.g., "G-33WB8LVHR6")
-- `base_url`: The base URL for your website, mentioned in **1. Create a Repository** step (e.g., https://thevahidal.github.io/jake)
+- `base_url`: The base URL for your website, mentioned in **1. Create a Repository** step (e.g., <https://thevahidal.github.io/jake>)
 
 #### Sections
 
@@ -70,11 +75,11 @@ Each item is defined using `[[sections.items]]` and has the following components
 
 - `title`: The title of the item (e.g., "Soul")
 - `description`: A brief description of the item (e.g., "An SQLite REST and Real-time server")
-- `url`: The URL associated with the item (e.g., "https://github.com/thevahidal/soul")
+- `url`: The URL associated with the item (e.g., "<https://github.com/thevahidal/soul>")
 
 </details>
 
-### 4. Voila!
+### 4. Voila
 
 That's all you need to do. Now, you can sit back and relax while your website gets deployed. You can monitor the progress in the `Actions` tab of your repository. Once the deployment is complete, you can access your brand new one-link website at `<yourusername>.github.io` (If you chose `<yourusername>.github.io` as your repository name) or `<yourusername>.github.io/repo-name/`.
 
@@ -105,6 +110,7 @@ For more detailed instructions and information on using a custom domain with Git
 4. Click on the "Run Workflow" button. A new window will appear.
 5. Within the new window, click on the green "Run Workflow" button.
 6. GitHub Actions will initiate the deployment process for your static content to GitHub Pages.
+
 </details>
 
 ## Contributing
