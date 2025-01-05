@@ -12,7 +12,7 @@
   <br />
   <br />
   <a href="https://thevahidal.github.io/jake">
-      <img src='docs/demo.gif' style="">
+      <img src='docs/demo.png' style="">
   </a>
 </div>
 
