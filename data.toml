@@ -14,6 +14,8 @@ description = "Here are some of my movies"
 direction = "column"
 item_style = "outline"
 [[sections.items]]
+embed_url = "https://www.youtube.com/embed/x0gUY9ddjQY"
+[[sections.items]]
 title = "Nightcrawler"
 description = "A mesmerizing thriller delving into the dark world of crime journalism"
 url = "https://www.imdb.com/title/tt2872718/"
@@ -26,20 +28,26 @@ title = "Prisoners"
 description = "A gripping thriller entangling a detective in a web of secrets during a kidnapping investigation"
 url = "https://www.imdb.com/title/tt1392214/"
 
+
 [[sections]]
 title = "Links"
 description = "Look for me on these websites"
 direction = "row"
 item_style = "filled"
+icon_size = "30px"
 [[sections.items]]
+icon = "https://cdn.simpleicons.org/instagram/ffffff"
 title = "Instagram"
 url = "https://www.instagram.com/jakegyllenhaal"
 [[sections.items]]
+icon = "https://cdn.simpleicons.org/imdb/ffffff"
 title = "IMDb"
 url = "https://www.imdb.com/name/nm0350453/"
 [[sections.items]]
+icon = "https://cdn.simpleicons.org/wikipedia/ffffff"
 title = "Wikipedia"
 url = "https://en.wikipedia.org/wiki/Jake_Gyllenhaal"
 [[sections.items]]
 title = "Rotten Tomatoes"
+icon = "https://cdn.simpleicons.org/rottentomatoes/ffffff"
 url = "https://www.rottentomatoes.com/celebrity/jake_gyllenhaal"

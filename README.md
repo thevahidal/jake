@@ -1,7 +1,5 @@
 <h1 align="center">
-    <a href="https://github.com/thevahidal/jake">
-        <img src='docs/logo.jpeg' height='200px' style="">
-    </a>
+  Jake
 </h1>
 
 <div align="center">
