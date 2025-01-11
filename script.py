@@ -44,10 +44,10 @@ def load_data(file_path):
         raw_data = tomllib.load(f)
 
     return Data(
-        name=raw_data["name"],
+        name=raw_data.get("name", ""),
         description=raw_data.get("description"),
         keywords=raw_data.get("keywords"),
-        base_url=raw_data["base_url"],
+        base_url=raw_data.get("base_url", ""),
         image=raw_data.get("image"),
         theme=raw_data.get("theme", "dark"),
         primary_color=raw_data.get("primary_color", "#546e7a"),
