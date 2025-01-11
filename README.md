@@ -111,6 +111,43 @@ For more detailed instructions and information on using a custom domain with Git
 
 </details>
 
+<details>
+<summary>3. How to <b>update</b> my repository with the latest version of Jake?</summary>
+
+Since Jake is a template repository, users who create repositories from it won't automatically receive updates when changes are made to the original template. To update your repository with the latest changes while preserving your custom data (such as the `data.toml` file), follow these steps:
+
+1. **Create a backup of your custom data:**
+
+   - Before updating, make sure to back up the `data.toml` file or any other files that contain your specific customizations, as these may be overwritten during the update process.
+
+2. **Sync with the latest version of Jake:**
+
+   - In your repository, click on the "GitHub Desktop" or use the command line to fetch the latest changes from the original template.
+   - You can do this by adding the original repository as a remote:
+
+     ```bash
+     git remote add upstream https://github.com/thevahidal/jake.git
+     git fetch upstream
+     git merge upstream/main
+     ```
+
+   - This will merge the latest changes from the Jake template into your repository.
+
+3. **Resolve any conflicts:**
+
+   - If there are conflicts, especially in files like `data.toml`, you’ll need to manually merge the updates from the template with your custom data. The `data.toml` file is where your personal data is stored, so be careful not to overwrite your custom settings.
+
+4. **Push the changes:**
+
+   - Once you've resolved any conflicts, commit the changes and push them back to your repository.
+
+5. **Review your site:**
+   - After updating, review your website to ensure everything is still functioning as expected. You can monitor the progress of the update in the "Actions" tab of your repository.
+
+By following these steps, you can ensure that your repository stays up to date with the latest improvements from the Jake template while preserving your personal customizations.
+
+</details>
+
 ## Contributing
 
 If you find any issues or have suggestions for improvement, please feel free to contribute by submitting a pull request or creating an issue in the repository.
