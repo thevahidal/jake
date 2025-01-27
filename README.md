@@ -148,6 +148,62 @@ By following these steps, you can ensure that your repository stays up to date w
 
 </details>
 
+### Local Development
+
+If you'd like to test or customize this project locally without triggering GitHub Actions, follow the steps below to set up and run the pipeline on your machine.
+
+#### Prerequisites
+
+Ensure the following are installed:
+
+- [Python 3.11+](https://www.python.org/)
+- [Poetry](https://python-poetry.org/) (You can install Poetry via [pipx](https://pypa.github.io/pipx/): `pipx install poetry`)
+
+#### Steps for Local Development
+
+1. **Clone the repository**:
+
+```bash
+git clone https://github.com/your-username/jake.git
+cd jake
+```
+
+2. Install dependencies using `Poetry`:
+
+```bash
+poetry install --no-root
+```
+
+3. Run the generator script: This will generate the HTML files and output them to the `dist/` directory.
+
+```bash
+poetry run python script.py
+```
+
+4. Preview your changes: Open the generated HTML files in your browser or use a local server to serve the dist folder:
+
+```bash
+python -m http.server --directory dist 8000
+```
+
+Then, open [http://localhost:8000](http://localhost:8000) in your browser.
+
+#### Optional: Build Automation Script
+
+To simplify these steps, you can use the provided `local_run.sh` script. This script will automate the process.
+
+Make the script executable:
+
+```bash
+chmod +x local_run.sh
+```
+
+Run it with:
+
+```bash
+./local_run.sh
+```
+
 ## Contributing
 
 If you find any issues or have suggestions for improvement, please feel free to contribute by submitting a pull request or creating an issue in the repository.
