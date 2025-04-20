@@ -150,16 +150,20 @@ By following these steps, you can ensure that your repository stays up to date w
 
 ### Jake's Friends
 
-Here's the list of all the folks that are using Jake! 
-If you want to add your website open a PR and add it to the bottom of this list,
-```
-in this format:
-- [Your Website Name](Your Website URL) - [Your Github Username/Your Repo Name](Your Github Repo URL)
-e.g.
-- [thevahidal](https://thevahidal.github.io/) - [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
-```
+Here’s a growing list of awesome people using **Jake**!  
 
-- [thevahidal](https://thevahidal.github.io/) - [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
+
+#### Community Sites
+
+- [thevahidal](https://thevahidal.github.io/) – [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
+
+Want to be featured here? Just open a pull request and add your site to the end of the list using the format below:
+
+```
+- [Your Website Name](Your Website URL) – [YourUsername/YourRepo](https://github.com/YourUsername/YourRepo)
+Example:
+- [thevahidal](https://thevahidal.github.io/) – [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
+```
 
 ### Local Development
 
