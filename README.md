@@ -148,6 +148,19 @@ By following these steps, you can ensure that your repository stays up to date w
 
 </details>
 
+### Jake's Friends
+
+Here's the list of all the folks that are using Jake! 
+If you want to add your website open a PR and add it to the bottom of this list,
+```
+in this format:
+- [Your Website Name](Your Website URL) - [Your Github Username/Your Repo Name](Your Github Repo URL)
+e.g.
+- [thevahidal](https://thevahidal.github.io/) - [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
+```
+
+- [thevahidal](https://thevahidal.github.io/) - [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
+
 ### Local Development
 
 If you'd like to test or customize this project locally without triggering GitHub Actions, follow the steps below to set up and run the pipeline on your machine.
