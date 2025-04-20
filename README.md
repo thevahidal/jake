@@ -152,9 +152,6 @@ By following these steps, you can ensure that your repository stays up to date w
 
 Here’s a growing list of awesome people using **Jake**!  
 
-
-#### Community Sites
-
 - [thevahidal](https://thevahidal.github.io/) – [thevahidal/thevahidal.github.io](https://github.com/thevahidal/thevahidal.github.io)
 
 Want to be featured here? Just open a pull request and add your site to the end of the list using the format below:
