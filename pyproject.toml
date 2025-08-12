@@ -10,6 +10,9 @@ python = "^3.11"
 tinyhtml = "^1.2.0"
 
 
+[tool.poetry.group.dev.dependencies]
+watchdog = "^6.0.0"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"

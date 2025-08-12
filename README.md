@@ -212,10 +212,16 @@ Make the script executable:
 chmod +x local_run.sh
 ```
 
-Run it with:
+Run it without arguments for a one-time build and serve:
 
 ```bash
 ./local_run.sh
+```
+
+Run it with the `--watch` flag to enable development mode with hot reload (rebuilds automatically when files change):
+
+```bash
+./local_run.sh --watch
 ```
 
 ## Contributing
